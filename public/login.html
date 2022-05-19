@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="back-button" href="/">🔙</a>
+    <section class="container">
+        <div class="register-container">
+            <div class="register-form">
+                <h3 id="resultado"></h3>
+                <label for="">Email</label>
+                <input type="email"  id="email" name="email" maxlength="30" minlength="03" required >
+                <label for="">Contraseña</label>
+                <input type="password" id="pass" name="pass" maxlength="30" minlength="06" required>
+                <button id="btn-login">Entrar</button>
+                <a class="registro-login-secundario" href="/registro">Registrarse</a>
+            </div>
+        </div>
+    </section>
+    <script src="/js/login.js"></script>
+</body>
+
+</html>

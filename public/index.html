@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Jesus Medina</title>
+</head>
+
+<body>
+    <nav id="nav" class="navigation">
+
+    </nav>
+    <h1 id="name"></h1>
+</body>
+<script>
+    window.onload = function () {
+        const name = localStorage.getItem("name");
+        const nav = document.getElementById("nav");
+        if (name) {
+            document.getElementById("name").innerText = name;
+            nav.innerHTML = `<button onClick="logout()">
+                            Salir
+                        </button>`;
+
+        } else {
+            window.location.href = "/login";
+            nav.innerHTML = `<button>
+                    <a href="/registro">Registro</a>
+                        </button>
+                        <button>
+                            <a href="/login">Login</a>
+                        </button>`;
+        }
+    }
+    function logout() {
+        localStorage.clear();
+        window.location.href="/login";
+    }
+
+</script>
+
+</html>

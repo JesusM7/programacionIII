@@ -1,0 +1,97 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+body {
+    background-color: rgb(38, 63, 71);
+}
+
+h1 {
+    color: #0f0f0f;
+    text-align: center;
+    margin: 20%;
+    background-color: #ebf5f7;
+    border-radius: 25px;
+    padding: 5px;
+    font-style: italic;
+
+}
+
+nav {
+    background-color: #ebf5f7;
+    border-radius: 2px;
+    display: flex;
+    gap: 5px;
+    flex-direction: row-reverse;
+    padding: 4px 5px;
+}
+
+
+/* estilo de registro*/
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.register-container {
+    width: 45%;
+    color: #0f0f0f;
+    background-color: #ebf5f7;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 15px;
+    box-shadow:0 15px 30px rgb(102, 101, 101), 0 10px 8px rgb(24, 24, 24);
+}
+
+.register-form {
+
+    display: flex;
+    flex-flow: column;
+    text-align: start;
+    align-items: center;
+    gap: 15px;
+}
+
+input {
+    padding: 8px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+}
+
+button {
+    padding: 15px;
+    border: none;
+    background-color: #038DEF;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 600;
+    
+}
+
+button:hover {
+    background-color: #04528a;
+    cursor: pointer;
+}
+
+button>a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.back-button {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.registro-login-secundario{
+    font-size:small;
+}
