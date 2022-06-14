@@ -6,7 +6,7 @@ const path = require("path");
 const bcrypt = require("bcrypt");
 
 const dotenv = require("dotenv");
-dotenv.config({ path: "./env/.env" });
+dotenv.config({ path: ".env" });
 
 const app = express();
 
