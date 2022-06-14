@@ -12,6 +12,8 @@ const app = express();
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.set("port", 3000);
+app.listen(process.env.PORT || 3000, () => { console.log("server activo") });
 
 app.set("view engine", "ejs");
 
@@ -75,6 +77,3 @@ app.post('/login', async (req, res) => {
       }
    });
 });
-
-app.set("port", 3000);
-app.listen(app.get("port"), () => { console.log("server activo") });
