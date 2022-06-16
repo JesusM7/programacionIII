@@ -5,22 +5,25 @@
 
 
 body {
-    background-color: rgb(38, 63, 71);
+    background: #f9fcff; 
+   
 }
 
 h1 {
     color: #0f0f0f;
     text-align: center;
     margin: 20%;
-    background-color: #ebf5f7;
+    background: -webkit-linear-gradient(to right, #a2abb3, #eef2f3); 
+    background: linear-gradient(to right, #a2abb3, #eef2f3); 
     border-radius: 25px;
-    padding: 5px;
+    
     font-style: italic;
 
 }
 
 nav {
-    background-color: #ebf5f7;
+    background: -webkit-linear-gradient(to right, #a2abb3, #eef2f3); 
+    background: linear-gradient(to right, #a2abb3, #eef2f3); 
     border-radius: 2px;
     display: flex;
     gap: 5px;
@@ -38,7 +41,9 @@ nav {
 .register-container {
     width: 45%;
     color: #0f0f0f;
-    background-color: #ebf5f7;
+    background: #8e9eab; 
+    background: -webkit-linear-gradient(to right, #a2abb3, #eef2f3); 
+    background: linear-gradient(to right, #a2abb3, #eef2f3); 
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
